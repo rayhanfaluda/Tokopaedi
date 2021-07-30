@@ -39,8 +39,8 @@ struct AkunView: View {
                         
 //                        SegmentedControlView(selected: $selectedSegment, segments: segments)
                         
-//                        SegmentedPicker(selectedSegment: $selectedSegment, labels: segmentedLabels)
-//                            .frame(height: 60)
+                        SegmentedPicker(selectedSegment: $selectedSegment, labels: segmentedLabels)
+                            .frame(height: 60)
                     }
                     .padding(.horizontal)
                     .padding(.top, UIScreen.main.bounds.height * 0.108)
