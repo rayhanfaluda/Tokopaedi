@@ -41,7 +41,6 @@ struct TodaysSpecial: View {
                 }
             }
         }
-        .padding(.vertical)
     }
 }
 

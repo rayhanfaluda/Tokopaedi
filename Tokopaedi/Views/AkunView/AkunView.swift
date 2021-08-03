@@ -18,40 +18,31 @@ struct AkunView: View {
     var body: some View {
         ZStack {
             ScrollView(axes: .vertical,
-                       showsIndicators: false,
+                       showsIndicators: true,
                        offsetChanged: { cgpoint in
                 print(cgpoint)
             }
             ) {
-                Text("Hello World")
+                if selectedSegment == 0 {
+                    AkunPembeliView()
+                        .padding(.horizontal)
+                } else {
+                    AkunTokoView()
+                        .padding(.top, 64)
+                        .padding(.horizontal)
+                }
             }
-            .padding(.top, 120)
+            .animation(.easeInOut(duration: 0.33))
+            .padding(.top, 92)
             
             VStack {
-                ZStack {
-                    Rectangle()
-                        .foregroundColor(.white)
-                        .shadow(radius: 2)
-                        .frame(height: 120)
-                    
-                    VStack {
-                        AkunNavBar()
-                        
-//                        SegmentedControlView(selected: $selectedSegment, segments: segments)
-                        
-                        SegmentedPicker(selectedSegment: $selectedSegment, labels: segmentedLabels)
-                            .frame(height: 60)
-                    }
+                AkunNavBar(selectedSegment: $selectedSegment)
+                    .padding(.top, 10)
                     .padding(.horizontal)
-                    .padding(.top, UIScreen.main.bounds.height * 0.108)
-                    .padding(.bottom)
-                    .background(Color.white)
-                    .frame(height: 120)
-                }
                 
                 Spacer()
             }
-            .edgesIgnoringSafeArea(.top)
+//            .edgesIgnoringSafeArea(.top)
         }
     }
 }

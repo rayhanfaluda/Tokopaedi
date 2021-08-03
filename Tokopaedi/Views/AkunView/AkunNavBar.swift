@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AkunNavBar: View {
-    @State private var selectedSegment: Int = 0
+    @Binding var selectedSegment: Int
     
     var navBarItems = ["gearshape.fill", "envelope.fill", "bell.fill"]
     var segmentedLabels = ["Akun Pembeli", "Akun Toko"]
@@ -32,6 +32,7 @@ struct AkunNavBar: View {
             }
             
             SegmentedControlView(selected: $selectedSegment, segments: segments)
+                .padding(.top, 10)
 //            SegmentedPicker(selectedSegment: $selectedSegment, labels: segmentedLabels)
 //                .frame(height: 60)
         }
@@ -40,6 +41,6 @@ struct AkunNavBar: View {
 
 struct AkunNavBar_Previews: PreviewProvider {
     static var previews: some View {
-        AkunNavBar()
+        AkunNavBar(selectedSegment: .constant(0))
     }
 }

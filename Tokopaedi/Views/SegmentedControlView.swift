@@ -15,36 +15,46 @@ struct Segment: Identifiable {
 struct SegmentedControlView: View {
     @Binding var selected : Int
     var segments: [Segment]
-
+    
     var body: some View {
-        HStack {
-            ForEach(segments) { segment in
-                GeometryReader { geometry in
-                    VStack {
-                        Button(action: {
-                            self.selected = segment.id
-                        })
-                        {
-                            Text(segment.segmentName)
-                                .padding(.horizontal, 5)
-                                .padding(.vertical, 0)
-                                .font(.headline)
+        ZStack {
+            Rectangle()
+                .foregroundColor(.gray)
+                .frame(height: 1)
+                .padding(.top, 32)
+            
+            HStack {
+                ForEach(segments) { segment in
+                    GeometryReader { geometry in
+                        VStack {
+                            Button(action: {
+                                withAnimation(.easeInOut(duration: 0.33)) {
+                                    self.selected = segment.id
+                                }
+                            })
+                            {
+                                Text(segment.segmentName)
+                                    .padding(.horizontal, 5)
+                                    .padding(.vertical, 0)
+                                    .font(.headline)
+                            }
+                            .foregroundColor(self.selected == segment.id ? .green : .gray)
+                            
+                            Rectangle()
+                                .fill()
+                                .foregroundColor(self.selected == segment.id ? .green : .clear)
+                                .frame(width: geometry.size.width, height: 2)
+                                .fixedSize()
+                            //                            .offset(x: geometry.size.width, y: geometry.size.height)
                         }
-                        .foregroundColor(self.selected == segment.id ? .green : .gray)
-                        
-                        Rectangle()
-                            .fill()
-                            .foregroundColor(self.selected == segment.id ? .green : .clear)
-                            .frame(width: geometry.size.width, height: 2)
-                            .fixedSize()
-//                            .offset(x: geometry.size.width, y: geometry.size.height)
+                        .animation(.easeInOut(duration: 0.33))
                     }
-                    .animation(.easeInOut(duration: 0.33))
+                    .frame(height: 36)
                 }
             }
         }
-//        .padding()
         .animation(.easeInOut(duration: 0.33))
+        .padding(.horizontal, -16)
     }
 }
 

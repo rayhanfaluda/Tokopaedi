@@ -29,8 +29,8 @@ struct HomeView: View {
                     VStack {
                         CurvedTopBg()
                             .foregroundColor(.green)
-                            .frame(height: 300)
-                            .offset(y: -150)
+                            .frame(height: 500)
+                            .offset(y: -350)
                         
                         Spacer()
                     }
@@ -60,6 +60,7 @@ struct HomeView: View {
                         
                         EventCollection()
                             .padding(.horizontal, -16)
+                            .padding(.bottom)
                         
                         TodaysSpecial()
                     }
