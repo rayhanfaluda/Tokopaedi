@@ -33,17 +33,17 @@ struct CustomTabBar: View {
                 }
                 .tag(3)
             
-            KeranjangView()
+            WishlistView()
                 .tabItem {
-                    Image(systemName: "cart")
-                    Text("Keranjang")
+                    Image(systemName: "heart")
+                    Text("Wishlist")
                 }
                 .tag(4)
             
-            AkunView()
+            TransaksiView()
                 .tabItem {
-                    Image(systemName: "person")
-                    Text("Akun")
+                    Image(systemName: "list.bullet.rectangle.portrait")
+                    Text("Transaksi")
                 }
                 .tag(5)
         }

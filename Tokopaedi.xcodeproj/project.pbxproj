@@ -13,6 +13,7 @@
 		2C3B77EC2699E83C00C8072B /* CategoryCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3B77EB2699E83C00C8072B /* CategoryCollection.swift */; };
 		2C3B77EF269C57D700C8072B /* ScrollViewMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3B77EE269C57D600C8072B /* ScrollViewMod.swift */; };
 		2C3B77F1269C994000C8072B /* ShippedToLoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3B77F0269C994000C8072B /* ShippedToLoc.swift */; };
+		2C462580280D3FC800A5FC6F /* TransaksiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C46257F280D3FC800A5FC6F /* TransaksiView.swift */; };
 		2C661968269EA1D600E2C343 /* PromoCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C661967269EA1D600E2C343 /* PromoCarousel.swift */; };
 		2C66196A269EDF1E00E2C343 /* StyleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C661969269EDF1E00E2C343 /* StyleColors.swift */; };
 		2C66196C269EF7BC00E2C343 /* EventCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C66196B269EF7BC00E2C343 /* EventCollection.swift */; };
@@ -41,9 +42,12 @@
 		2C822FD526B78927000D44C5 /* DaftarTransaksiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C822FD426B78927000D44C5 /* DaftarTransaksiList.swift */; };
 		2C822FD726B7894A000D44C5 /* FavoritSayaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C822FD626B7894A000D44C5 /* FavoritSayaList.swift */; };
 		2C822FD926B78BE9000D44C5 /* TokopaediCareList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C822FD826B78BE9000D44C5 /* TokopaediCareList.swift */; };
+		2CA317BB280D4371004B4078 /* TransaksiCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA317BA280D4371004B4078 /* TransaksiCard.swift */; };
 		2CA83F3B26B8019A00EC193C /* DanaDiTokopaediCardBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA83F3A26B8019900EC193C /* DanaDiTokopaediCardBG.swift */; };
 		2CA83F3D26B8F23400EC193C /* AkunPembeliView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA83F3C26B8F23400EC193C /* AkunPembeliView.swift */; };
 		2CA83F3F26B8F23C00EC193C /* AkunTokoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA83F3E26B8F23C00EC193C /* AkunTokoView.swift */; };
+		2CBDE3C3280FB3DD003ECEE3 /* TransaksiStatusBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBDE3C2280FB3DD003ECEE3 /* TransaksiStatusBox.swift */; };
+		2CBDE3C6280FF774003ECEE3 /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBDE3C5280FF774003ECEE3 /* WishlistView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,7 @@
 		2C3B77EB2699E83C00C8072B /* CategoryCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollection.swift; sourceTree = "<group>"; };
 		2C3B77EE269C57D600C8072B /* ScrollViewMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewMod.swift; sourceTree = "<group>"; };
 		2C3B77F0269C994000C8072B /* ShippedToLoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippedToLoc.swift; sourceTree = "<group>"; };
+		2C46257F280D3FC800A5FC6F /* TransaksiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiView.swift; sourceTree = "<group>"; };
 		2C661967269EA1D600E2C343 /* PromoCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCarousel.swift; sourceTree = "<group>"; };
 		2C661969269EDF1E00E2C343 /* StyleColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleColors.swift; sourceTree = "<group>"; };
 		2C66196B269EF7BC00E2C343 /* EventCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollection.swift; sourceTree = "<group>"; };
@@ -101,9 +106,12 @@
 		2C822FD426B78927000D44C5 /* DaftarTransaksiList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarTransaksiList.swift; sourceTree = "<group>"; };
 		2C822FD626B7894A000D44C5 /* FavoritSayaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritSayaList.swift; sourceTree = "<group>"; };
 		2C822FD826B78BE9000D44C5 /* TokopaediCareList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokopaediCareList.swift; sourceTree = "<group>"; };
+		2CA317BA280D4371004B4078 /* TransaksiCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiCard.swift; sourceTree = "<group>"; };
 		2CA83F3A26B8019900EC193C /* DanaDiTokopaediCardBG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanaDiTokopaediCardBG.swift; sourceTree = "<group>"; };
 		2CA83F3C26B8F23400EC193C /* AkunPembeliView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkunPembeliView.swift; sourceTree = "<group>"; };
 		2CA83F3E26B8F23C00EC193C /* AkunTokoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkunTokoView.swift; sourceTree = "<group>"; };
+		2CBDE3C2280FB3DD003ECEE3 /* TransaksiStatusBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiStatusBox.swift; sourceTree = "<group>"; };
+		2CBDE3C5280FF774003ECEE3 /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,15 +227,18 @@
 			children = (
 				2C7028F026983B86007F9E09 /* ContentView.swift */,
 				2C70291626983BC0007F9E09 /* CustomTabBar.swift */,
+				2C702926269852E0007F9E09 /* SearchBar.swift */,
 				2C3B77E52698902B00C8072B /* NavBarItems.swift */,
 				2C664B8E26A17E7E00DE258F /* SegmentedPicker.swift */,
 				2C664B9226A1868100DE258F /* SegmentedControlView.swift */,
 				2C70292326985205007F9E09 /* Home */,
 				2C70291A26983CB0007F9E09 /* FeedView.swift */,
 				2C70291C26983CBE007F9E09 /* OfficialStoreView.swift */,
+				2CBDE3C5280FF774003ECEE3 /* WishlistView.swift */,
 				2C70291E26983CC5007F9E09 /* KeranjangView.swift */,
 				2C664B8B26A17B0100DE258F /* AkunView */,
 				2C3B77ED269C579100C8072B /* Utilities */,
+				2CA317BC280D4376004B4078 /* TransaksiView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,7 +248,6 @@
 			children = (
 				2C70291826983CA9007F9E09 /* HomeView.swift */,
 				2C7029242698522F007F9E09 /* HomeNavBar.swift */,
-				2C702926269852E0007F9E09 /* SearchBar.swift */,
 				2C3B77E726989FAF00C8072B /* CurvedTopBg.swift */,
 				2C3B77F0269C994000C8072B /* ShippedToLoc.swift */,
 				2C3B77E92698B59600C8072B /* TopCard.swift */,
@@ -247,6 +257,16 @@
 				2C66196D269EFA6000E2C343 /* TodaysSpecial.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		2CA317BC280D4376004B4078 /* TransaksiView */ = {
+			isa = PBXGroup;
+			children = (
+				2C46257F280D3FC800A5FC6F /* TransaksiView.swift */,
+				2CA317BA280D4371004B4078 /* TransaksiCard.swift */,
+				2CBDE3C2280FB3DD003ECEE3 /* TransaksiStatusBox.swift */,
+			);
+			path = TransaksiView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +279,7 @@
 				2C7028E726983B86007F9E09 /* Sources */,
 				2C7028E826983B86007F9E09 /* Frameworks */,
 				2C7028E926983B86007F9E09 /* Resources */,
+				2CBDE3C4280FD959003ECEE3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -374,6 +395,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CBDE3C4280FD959003ECEE3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C7028E726983B86007F9E09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -397,9 +438,12 @@
 				2C70292126983CCC007F9E09 /* AkunView.swift in Sources */,
 				2C3B77EF269C57D700C8072B /* ScrollViewMod.swift in Sources */,
 				2C664B9326A1868100DE258F /* SegmentedControlView.swift in Sources */,
+				2CBDE3C6280FF774003ECEE3 /* WishlistView.swift in Sources */,
 				2C7028F126983B86007F9E09 /* ContentView.swift in Sources */,
 				2C66196C269EF7BC00E2C343 /* EventCollection.swift in Sources */,
+				2CBDE3C3280FB3DD003ECEE3 /* TransaksiStatusBox.swift in Sources */,
 				2C70291926983CA9007F9E09 /* HomeView.swift in Sources */,
+				2C462580280D3FC800A5FC6F /* TransaksiView.swift in Sources */,
 				2C3B77F1269C994000C8072B /* ShippedToLoc.swift in Sources */,
 				2C822FD326B788EE000D44C5 /* DanaDiTokopaediCard.swift in Sources */,
 				2C702927269852E0007F9E09 /* SearchBar.swift in Sources */,
@@ -410,6 +454,7 @@
 				2C70291726983BC0007F9E09 /* CustomTabBar.swift in Sources */,
 				2C664B8D26A17B1600DE258F /* AkunNavBar.swift in Sources */,
 				2C7028EF26983B86007F9E09 /* TokopaediApp.swift in Sources */,
+				2CA317BB280D4371004B4078 /* TransaksiCard.swift in Sources */,
 				2C66196E269EFA6000E2C343 /* TodaysSpecial.swift in Sources */,
 				2C822FD926B78BE9000D44C5 /* TokopaediCareList.swift in Sources */,
 			);
@@ -579,7 +624,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -609,7 +654,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -72,13 +72,12 @@ struct HomeView: View {
             
             VStack {
                 if #available(iOS 15.0, *) {
-                    SearchBar(text: $searchText)
+                    SearchBar(textFieldPlaceholder: "Cari di Tokopaedi", text: $searchText)
                         .padding(.horizontal)
                         .padding(.top, 6)
                         .padding(.bottom)
                         .foregroundColor(scrollPosition.y <= -15.0 ? .black : .white)
                         .background(scrollPosition.y <= -15.0 ? .white : .clear)
-                        .shadow(radius: 2)
                 } else {
                     // Fallback on earlier versions
                 }

@@ -11,7 +11,7 @@ struct HomeNavBar: View {
     @State private var searchText: String = ""
     
     var body: some View {
-        SearchBar(text: $searchText)
+        SearchBar(textFieldPlaceholder: "Cari di Tokopaedi", text: $searchText)
             .padding()
             .padding(.top)
             .padding(.top, UIScreen.main.bounds.height * 0.024)

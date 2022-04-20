@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct SearchBar: View {
-    var navBarItems = ["heart.fill", "envelope.fill", "bell.fill"]
+    var textFieldPlaceholder: String
+    var navBarItems = ["envelope", "bell", "cart", "line.3.horizontal"]
     
     @Binding var text: String
     
@@ -16,7 +17,7 @@ struct SearchBar: View {
     
     var body: some View {
         HStack {
-            TextField("Cari di Tokopaedi", text: $text)
+            TextField(textFieldPlaceholder, text: $text)
                 .keyboardType(.webSearch)
                 .padding(7)
                 .padding(.horizontal, 25)
@@ -30,11 +31,11 @@ struct SearchBar: View {
                             .padding(.leading, 8)
                  
                         if isEditing {
-                            Button(action: {
+                            Button {
                                 withAnimation {
                                     self.text = ""
                                 }
-                            }) {
+                            } label: {
                                 Image(systemName: "multiply.circle.fill")
                                     .foregroundColor(.gray)
                                     .padding(.trailing, 8)
@@ -49,13 +50,13 @@ struct SearchBar: View {
                 }
             
             if isEditing {
-                Button(action: {
+                Button {
                     withAnimation {
                         self.isEditing = false
                         self.text = ""
                         hideKeyboard()
                     }
-                }) {
+                } label: {
                     Text("Cancel")
                 }
                 .padding(.trailing, 10)
@@ -81,7 +82,7 @@ extension View {
 
 struct SearchBar_Previews: PreviewProvider {
     static var previews: some View {
-        SearchBar(text: .constant(""))
+        SearchBar(textFieldPlaceholder: "Cari di Tokopaedi", text: .constant(""))
             .background(Color.green)
     }
 }
