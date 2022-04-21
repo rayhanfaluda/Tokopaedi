@@ -48,6 +48,9 @@
 		2CA83F3F26B8F23C00EC193C /* AkunTokoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA83F3E26B8F23C00EC193C /* AkunTokoView.swift */; };
 		2CBDE3C3280FB3DD003ECEE3 /* TransaksiStatusBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBDE3C2280FB3DD003ECEE3 /* TransaksiStatusBox.swift */; };
 		2CBDE3C6280FF774003ECEE3 /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBDE3C5280FF774003ECEE3 /* WishlistView.swift */; };
+		2CBDE3C82810FD78003ECEE3 /* MenungguPembayaranView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBDE3C72810FD78003ECEE3 /* MenungguPembayaranView.swift */; };
+		2CBDE3CA2811064F003ECEE3 /* TransaksiFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBDE3C92811064F003ECEE3 /* TransaksiFilterView.swift */; };
+		2CBDE3CC28110775003ECEE3 /* TransaksiFilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBDE3CB28110775003ECEE3 /* TransaksiFilterButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +115,9 @@
 		2CA83F3E26B8F23C00EC193C /* AkunTokoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkunTokoView.swift; sourceTree = "<group>"; };
 		2CBDE3C2280FB3DD003ECEE3 /* TransaksiStatusBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiStatusBox.swift; sourceTree = "<group>"; };
 		2CBDE3C5280FF774003ECEE3 /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
+		2CBDE3C72810FD78003ECEE3 /* MenungguPembayaranView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenungguPembayaranView.swift; sourceTree = "<group>"; };
+		2CBDE3C92811064F003ECEE3 /* TransaksiFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiFilterView.swift; sourceTree = "<group>"; };
+		2CBDE3CB28110775003ECEE3 /* TransaksiFilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiFilterButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +269,9 @@
 			isa = PBXGroup;
 			children = (
 				2C46257F280D3FC800A5FC6F /* TransaksiView.swift */,
+				2CBDE3C92811064F003ECEE3 /* TransaksiFilterView.swift */,
+				2CBDE3CB28110775003ECEE3 /* TransaksiFilterButton.swift */,
+				2CBDE3C72810FD78003ECEE3 /* MenungguPembayaranView.swift */,
 				2CA317BA280D4371004B4078 /* TransaksiCard.swift */,
 				2CBDE3C2280FB3DD003ECEE3 /* TransaksiStatusBox.swift */,
 			);
@@ -420,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CBDE3C82810FD78003ECEE3 /* MenungguPembayaranView.swift in Sources */,
 				2C822FD126B788BF000D44C5 /* TokoMemberCard.swift in Sources */,
 				2C3B77EA2698B59600C8072B /* TopCard.swift in Sources */,
 				2C70291F26983CC5007F9E09 /* KeranjangView.swift in Sources */,
@@ -427,6 +437,7 @@
 				2C7029252698522F007F9E09 /* HomeNavBar.swift in Sources */,
 				2CA83F3F26B8F23C00EC193C /* AkunTokoView.swift in Sources */,
 				2C70291B26983CB0007F9E09 /* FeedView.swift in Sources */,
+				2CBDE3CA2811064F003ECEE3 /* TransaksiFilterView.swift in Sources */,
 				2C70291D26983CBE007F9E09 /* OfficialStoreView.swift in Sources */,
 				2C822FD726B7894A000D44C5 /* FavoritSayaList.swift in Sources */,
 				2C661968269EA1D600E2C343 /* PromoCarousel.swift in Sources */,
@@ -434,6 +445,7 @@
 				2C66196A269EDF1E00E2C343 /* StyleColors.swift in Sources */,
 				2C822FD526B78927000D44C5 /* DaftarTransaksiList.swift in Sources */,
 				2C3B77E62698902B00C8072B /* NavBarItems.swift in Sources */,
+				2CBDE3CC28110775003ECEE3 /* TransaksiFilterButton.swift in Sources */,
 				2C664B9126A1820D00DE258F /* Modifiable.swift in Sources */,
 				2C70292126983CCC007F9E09 /* AkunView.swift in Sources */,
 				2C3B77EF269C57D700C8072B /* ScrollViewMod.swift in Sources */,

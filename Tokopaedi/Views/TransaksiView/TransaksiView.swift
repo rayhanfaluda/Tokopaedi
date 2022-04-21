@@ -22,6 +22,10 @@ struct TransaksiView: View {
         ZStack {
             VStack {
                 SearchBar(textFieldPlaceholder: "Cari Transaksi", text: $searchText)
+                    .tint(.black)
+                
+                TransaksiFilterView()
+                    .frame(height: 44)
                 
                 Spacer()
             }
@@ -29,6 +33,9 @@ struct TransaksiView: View {
             
             ScrollView(axes: .vertical, showsIndicators: true) {
                 LazyVStack {
+                    MenungguPembayaranView()
+                        .padding(.bottom)
+                    
                     ForEach(transaksi, id: \.self) { item in
                         TransaksiCard(transaksiIcon: item[0],
                                       transaksiType: item[1],
@@ -44,7 +51,7 @@ struct TransaksiView: View {
                 }
                 .padding(.horizontal)
             }
-            .padding(.top, 48)
+            .padding(.top, 96)
         }
     }
 }

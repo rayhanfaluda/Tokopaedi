@@ -152,7 +152,7 @@ struct SegmentedPicker: View {
                 DispatchQueue.main.async {
                     allFit = false
                 }
-            }  else {
+            } else {
                 // We were in compact mode and need to switch to regular mode, for a full retry.
                 justSwitchedToCompactView = false
                 DispatchQueue.main.async {

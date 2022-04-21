@@ -29,8 +29,8 @@ struct TransaksiCard: View {
             VStack(alignment: .leading) {
                 HStack {
                     Image(systemName: transaksiIcon)
-                        .foregroundColor(.green)
                         .font(.title2)
+                        .foregroundColor(.green)
                     
                     VStack(alignment: .leading) {
                         Text(transaksiType)
@@ -53,7 +53,7 @@ struct TransaksiCard: View {
                         Text(transaksiStatus)
                             .font(.caption)
                             .fontWeight(.semibold)
-                            .foregroundColor(.green)
+                            .foregroundColor(Color(UIColor.systemGreen))
                     }
                     
                     Button {
@@ -61,6 +61,7 @@ struct TransaksiCard: View {
                     } label: {
                         Image(systemName: "slider.vertical.3")
                     }
+                    .tint(Color(UIColor.darkGray))
                 }
                 
                 Divider()
